@@ -1,0 +1,14 @@
+img{
+    width: 150px;
+    border-radius: 15px;
+    margin: 15px;
+}
+
+.img2{
+    position: relative;
+    top: 70px;
+}
+.img3{
+    position: relative;
+    top: 140px;
+}
