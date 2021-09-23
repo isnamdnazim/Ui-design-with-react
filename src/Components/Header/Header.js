@@ -5,24 +5,28 @@ import { Carousel } from 'react-bootstrap';
 const Header = () => {
     return (
         <div className="bg-img">
-            
+
             <div>
-            <div className="overlay">
-            </div>
-                <ul className="d-flex justify-content-end text-none menu">
-                    <li><a href="./">Home</a></li>
-                    <li><a href="./">About</a></li>
-                    <li><a href="./">Service & Package</a></li>
-                    <li><a href="./">Gallery</a></li>
-                    <li><a href="./">Package</a></li>
-                    <li><a href="./">FAQ</a></li>
-                    <li><a href="./">Contact</a></li>
-                </ul>
+                <div className="overlay">
+                </div>
+                <header class="header">
+                    <input className="menu-btn" type="checkbox" id="menu-btn" />
+                    <label className="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+                    <ul className="menu">
+                        <li><a href="./">Home</a></li>
+                        <li><a href="./">About</a></li>
+                        <li><a href="./">Service & Package</a></li>
+                        <li><a href="./">Gallery</a></li>
+                        <li><a href="./">Package</a></li>
+                        <li><a href="./">FAQ</a></li>
+                        <li><a href="./">Contact</a></li>
+                    </ul>
+                </header>
             </div>
             <div className="carousel">
                 <Carousel className="d-flex align-items-center">
                     <Carousel.Item >
-                        <div className="m-5 p-5">
+                        <div className="m-5 p-5 caro-res">
                             <div className="m-5 p-5">
                                 <h1 className="text-start text-white">A picture is worth a thousand words.</h1>
                                 <p className="text-start text-white">It clearly snd beautifully captures your emontions - the joy, the laughter, the tears, you name it. Our pride is in offering the best shoots as we help you tell your story in photos.</p>
@@ -32,7 +36,7 @@ const Header = () => {
 
                     </Carousel.Item>
                     <Carousel.Item >
-                        <div className="m-5 p-5">
+                        <div className="m-5 p-5 caro-res">
                             <div className="m-5 p-5">
                                 <h1 className="text-start text-white">A picture is worth a thousand words.</h1>
                                 <p className="text-start text-white">It clearly snd beautifully captures your emontions - the joy, the laughter, the tears, you name it. Our pride is in offering the best shoots as we help you tell your story in photos.</p>
@@ -42,7 +46,7 @@ const Header = () => {
 
                     </Carousel.Item>
                     <Carousel.Item >
-                        <div className="m-5 p-5">
+                        <div className="m-5 p-5 caro-res">
                             <div className="m-5 p-5">
                                 <h1 className="text-start text-white">A picture is worth a thousand words.</h1>
                                 <p className="text-start text-white">It clearly snd beautifully captures your emontions - the joy, the laughter, the tears, you name it. Our pride is in offering the best shoots as we help you tell your story in photos.</p>

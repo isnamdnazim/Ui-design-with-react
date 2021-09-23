@@ -1,14 +1,21 @@
 img{
     width: 150px;
     border-radius: 15px;
-    margin: 15px;
+    margin-right: 05%;
 }
 
 .img2{
     position: relative;
     top: 70px;
+    margin-right: 05%;
 }
 .img3{
     position: relative;
     top: 140px;
+    margin-right: 05%;
+}
+
+.about-us{
+    position: relative;
+    top: 100px;
 }
